@@ -41,7 +41,8 @@ def take_order(menu):
             print(f"{item} is not available in the menu.")
     return order
 
-# Function to calculate the total bill
+
+# Function to calculate the total bill 
 
 
 def calculate_bill(order, menu):
