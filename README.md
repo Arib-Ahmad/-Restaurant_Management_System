@@ -1,129 +1,56 @@
-🍽 Restaurant Management System (Python + Tkinter)
+# 🍽️ Restaurant Management System  
+**Python • Tkinter • GUI Application**
 
-A GUI-based Restaurant Management System built using Python and Tkinter.
-This desktop application helps manage restaurant menus, take customer orders, and generate bills automatically through an easy-to-use graphical interface.
+A desktop-based **Restaurant Management System** built using **Python and Tkinter**.  
+This application allows restaurant staff to manage menu items, take customer orders, and generate bills automatically through a clean and user-friendly graphical interface.
 
-📌 Features
+---
 
-📋 Menu Management
+## ✨ Overview
 
-Add new food items with prices
+Manual restaurant billing and order handling can be slow and error-prone.  
+This project replaces the traditional manual process with a **simple GUI-based system** that improves accuracy, speed, and ease of use.
 
-Remove existing menu items
+The application is designed for **small restaurants, cafés, and academic projects**.
 
-Display updated menu in real time
+---
 
-🛒 Order Management
+## 🚀 Features
 
-Select items from the menu
+### 📋 Menu Management
+- Add new food items with price
+- Remove existing menu items
+- Display updated menu instantly
 
-Add items to customer order
+### 🛒 Order Management
+- Select items from the menu
+- Add multiple items to the order
+- Clear the order when required
 
-Clear order when required
+### 💰 Billing System
+- Automatic bill calculation
+- Item-wise price breakdown
+- Eliminates manual calculation errors
 
-💰 Billing System
+### 🎨 Graphical User Interface
+- Clean dark-themed UI
+- Simple layout and controls
+- Easy to operate for non-technical users
 
-Automatically calculates total bill
+---
 
-Displays item-wise bill details
+## 🖥️ Tech Stack
 
-Prevents manual calculation errors
+- **Programming Language:** Python 3  
+- **GUI Framework:** Tkinter  
+- **Libraries Used:**
+  - tkinter
+  - tkinter.messagebox
+  - tkinter.font  
 
-🎨 Modern GUI
+> No external libraries or installations required.
 
-Clean dark-themed interface
+---
 
-User-friendly layout
+## 📂 Project Structure
 
-Easy navigation for restaurant staff
-
-🖥️ Technologies Used
-
-Programming Language: Python 3
-
-GUI Framework: Tkinter
-
-Libraries:
-
-tkinter
-
-messagebox
-
-font
-
-No external libraries are required — everything used is part of standard Python.
-
-📂 Project Structure
-Restaurant-Management-System/
-│
-├── main.py          # Main application file
-├── README.md        # Project documentation
-
-⚙️ How to Run the Project
-
-Make sure Python 3.x is installed on your system
-
-Clone the repository:
-
-git clone https://github.com/your-username/restaurant-management-system.git
-
-
-Navigate to the project folder:
-
-cd restaurant-management-system
-
-
-Run the application:
-
-python main.py
-
-📸 Application Overview
-
-Left panel displays the Menu
-
-Right panel displays the Order and Bill
-
-Buttons are provided for:
-
-Adding items
-
-Removing items
-
-Adding items to order
-
-Calculating bill
-
-Clearing order
-
-The system updates instantly based on user actions.
-
-🎯 Use Case
-
-This project is suitable for:
-
-Small restaurants or cafes
-
-College mini-project submission
-
-Learning GUI development in Python
-
-Understanding event-driven programming
-
-🚀 Future Enhancements
-
-Add database support (SQLite/MySQL)
-
-Implement login system (Admin/Cashier)
-
-Add GST and discount calculation
-
-Print or export bill as PDF
-
-Improve UI using CustomTkinter or PyQt
-
-Convert application into .exe
-
-📝 License
-
-This project is created for educational purposes.
-You are free to modify and enhance it.
