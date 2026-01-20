@@ -54,3 +54,22 @@ The application is designed for **small restaurants, cafés, and academic projec
 
 ## 📂 Project Structure
 
+---
+
+## ⚙️ How to Run the Project
+
+### Prerequisites
+- Python 3.x installed on your system
+
+### Steps
+```bash
+# Clone the repository
+git clone https://github.com/your-username/restaurant-management-system.git
+
+# Navigate to the project folder
+cd restaurant-management-system
+
+# Run the application
+python main.py
+
+
